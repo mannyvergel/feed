@@ -74,7 +74,9 @@ for(var key in posts) {
             }
         ],
         date:           posts[key].date,
-        image:          posts[key].image
+        image:          posts[key].image,
+        content: 'My content',
+        'media:thumbnail': 'http://path/to/my/thumbnail.jpg'
     });
 }
 ```
